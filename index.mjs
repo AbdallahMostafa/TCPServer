@@ -9,3 +9,6 @@ const server = net.createServer( socket => {
 });
 
 server.listen(8800, "127.0.0.1");
+
+// Client Code
+// nc 127.0.0.1 8800
